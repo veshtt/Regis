@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>REGIS.IR - Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="primdiv-container">
+    <div class="ilustracao">
+      <img src="img/login.png" alt="Ilustração de login" />
+    </div>
+    <div class="login-container">
+      <div class="logo">
+        <img src="img/RegisAzul 1.png" alt="Logo REGIS.IR" />
+      </div>
+      <h2 class="user">USER LOGIN</h2>
+   
+      <form id="loginForm">
+        <div class="input-group">
+          <span class="icon">👤</span>
+          <input type="text" id="username" placeholder="USERNAME" required />
+        </div>
+        <div class="input-group">
+          <span class="icon">🔒</span>
+          <input type="password" id="password" placeholder="PASSWORD" required />
+        </div>
+        <button type="submit">LOGIN</button>
+        <p id="errorMsg" class="error"></p>
+      </form>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById("loginForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      const username = document.getElementById("username").value.trim();
+      const password = document.getElementById("password").value.trim();
+      const errorMsg = document.getElementById("errorMsg");
+
+      if (username === "admin" && password === "123456") {
+        window.location.href = "inicio.html";
+      } else {
+        errorMsg.textContent = "Usuário ou senha incorretos.";
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #294fb9, #4983e7);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.primdiv-container {
+  display: flex;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  max-width: 1500px;
+  width: 100%;
+  max-height: 700px;
+  height: 100%;
+}
+
+.ilustracao {
+  flex: 1;
+  background: linear-gradient(20deg, #294fb9, #4983e7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.ilustracao img {
+  max-width: 1100px;
+  height: auto;
+}
+
+.login-container {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.logo img {
+  width: 400px;
+  height: auto;
+  margin-bottom: 40px;
+}
+
+
+
+h2 {
+  margin: 10px 0 20px;
+  color: #333;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  background: #f0f0f0;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.input-group .icon {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.input-group input {
+  border: none;
+  background: transparent;
+  outline: none;
+  width: 100%;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px;
+  background-color: #6a11cb;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  max-width: 300px;
+}
+
+button:hover {
+  background-color: #2575fc;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
+.regisn{
+  margin-bottom: 40px;
+}
+
+.user {
+margin-bottom: 40px;
+font-size: 40px;
+color: dimgrey;
+}
