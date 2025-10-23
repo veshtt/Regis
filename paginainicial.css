@@ -131,16 +131,13 @@ body {
 .logo-box img {
   width: 550px;
   height: auto;
-  margin-right: 1000px;
 }
 
 .logo-box h1 {
   font-size: 2.5rem;
   color: #195aa9;
 }
-.left{
-align-content: center;
-}
+
 
 .left h2 {
   font-size: 1.8rem;
@@ -185,4 +182,5 @@ align-content: center;
   width: 100%;
   height: auto;
 }
+
 
